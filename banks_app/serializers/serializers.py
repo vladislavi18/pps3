@@ -75,7 +75,7 @@ class CreditAccountSerializer(serializers.ModelSerializer):
     class Meta:
         model = CreditAccount
         fields = (
-            'id', 'employee', 'payment_account', 'client', 'bank_name', 'end_date', 'loan_duration_months',
+            'id', 'employee', 'payment_account', 'client', 'bank_name', 'start_date', 'end_date', 'loan_duration_months',
             'loan_amount', 'monthly_payment')
 
 
